@@ -20,7 +20,7 @@ const CATALOG = [
     {
         id: '235604',
         name: 'Манга «Дарований» [Given] том 3',
-        img: 'img/catalog/given.jpg',
+        img: 'img/catalog/given.jpeg',
         price: 110.0,
     },
     {
