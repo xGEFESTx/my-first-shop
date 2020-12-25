@@ -20,5 +20,6 @@ const headerPage = new Header();
 
 const productsStore = localStorageUtil.getProducts();
 
-
-headerPage.render(productsStore.length);
+setTimeout(() => {
+    headerPage.render(productsStore.length);
+}, 1500); 

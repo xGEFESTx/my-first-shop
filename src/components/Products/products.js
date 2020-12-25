@@ -59,7 +59,6 @@ class Products{
 }
 
 const productsPage = new Products();
-spinnerPage.render();
 
 setTimeout(() => {
     productsPage.render();

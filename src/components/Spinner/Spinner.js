@@ -15,3 +15,4 @@
 }
 
 const spinnerPage = new Spinner();
+spinnerPage.render();
