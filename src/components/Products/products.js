@@ -17,6 +17,7 @@ class Products{
             element.classList.remove(this.classNameAcrive);
             element.innerHTML = this.labelAdd;
         }
+        headerPage.render(products.length);
     }
 
     render(){
@@ -41,7 +42,7 @@ class Products{
                     <span class="products-element__price">
                         💰 ${price.toLocaleString()} грн
                     </span>
-                    <button class="products-element__btn${activeClass}" onclick= "productsPage.handleSetLocationStorage(this, '${id}')">
+                    <button class="products-element__btn${activeClass}" onclick= "productsPage.handleSetLocationStorage(this, '${id}');">
                         ${activeText}
                     </button>
                 </li>
