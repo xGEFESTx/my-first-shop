@@ -34,7 +34,7 @@ class Products{
                     activeClass = ' ' + this.classNameAcrive;
                     activeText = this.labelRemove;
                 }
-
+                spinnerPage.handlClear();
                 htmlCatalog += `
                 <li class="products-element">
                     <span class="products-element__name">${name}</span>
@@ -59,4 +59,8 @@ class Products{
 }
 
 const productsPage = new Products();
-productsPage.render();
+spinnerPage.render();
+
+setTimeout(() => {
+    productsPage.render();
+}, 3000); 
